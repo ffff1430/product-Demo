@@ -1,0 +1,18 @@
+//
+//  Config.xcconfig
+//  example
+//
+//  Created by B1591 on 2021/5/14.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+// Server URL
+ROOT_URL = http:/$()/localhost:8081
+
+// Keys
+API_KEY = 783u9djd8a_hkzos7jd803001nd
+
+// App Settings
+APP_NAME = example
+APP_BUNDLE_ID = com.star.example
