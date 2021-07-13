@@ -27,7 +27,7 @@ class CustomTextField: UITextField {
         super.init(frame: frame)
         self.layer.cornerRadius = 5
         self.layer.masksToBounds = true
-        self.layer.borderColor = .init(red: 191.0, green: 191.0, blue: 191.0, alpha: 1)
+        self.layer.borderColor = .init(srgbRed: 191.0, green: 191.0, blue: 191.0, alpha: 1)
         self.layer.borderWidth = 1
     }
     
