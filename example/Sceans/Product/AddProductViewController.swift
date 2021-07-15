@@ -57,7 +57,7 @@ class AddProductViewController: UIViewController {
         let label = UILabel()
         label.font = UIFont(name: "HelveticaNeue-Bold", size: 40)
         label.textAlignment = .left
-        label.textColor = UIColor(named: "AddProductTitle")
+        label.textColor = Color.primaryColor()
         return label
     }()
     
@@ -72,7 +72,7 @@ class AddProductViewController: UIViewController {
     
     var nameTextField: CustomTextField = {
         let textField = CustomTextField()
-        textField.backgroundColor = UIColor(named: "AddProductTextField")
+        textField.backgroundColor = Color.addProductTextField()
         textField.placeholder = "Fill in your product name"
         return textField
     }()
@@ -88,7 +88,7 @@ class AddProductViewController: UIViewController {
     
     var listPriceTextField: CustomTextField = {
         let textField = CustomTextField()
-        textField.backgroundColor = UIColor(named: "AddProductTextField")
+        textField.backgroundColor = Color.addProductTextField()
         textField.placeholder = "Fill in your product price"
         return textField
     }()
@@ -104,7 +104,7 @@ class AddProductViewController: UIViewController {
     
     var attributeTextField: CustomTextField = {
         let textField = CustomTextField()
-        textField.backgroundColor = UIColor(named: "AddProductTextField")
+        textField.backgroundColor = Color.addProductTextField()
         textField.placeholder = "Fill in your product attribute"
         return textField
     }()
@@ -120,7 +120,7 @@ class AddProductViewController: UIViewController {
     
     var unitCostTextField: CustomTextField = {
         let textField = CustomTextField()
-        textField.backgroundColor = UIColor(named: "AddProductTextField")
+        textField.backgroundColor = Color.addProductTextField()
         textField.placeholder = "Fill in your product unitCost"
         return textField
     }()
@@ -128,7 +128,7 @@ class AddProductViewController: UIViewController {
     var addProductButton: UIButton = {
         let button = UIButton()
         button.setTitleColor(.black, for: .normal)
-        button.backgroundColor = UIColor(named: "AddProductTitle")
+        button.backgroundColor = Color.primaryColor()
         button.layer.cornerRadius = 5
         return button
     }()

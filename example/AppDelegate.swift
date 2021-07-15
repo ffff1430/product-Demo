@@ -10,8 +10,7 @@ import DropDown
 import SHOPSwift
 import MaterialComponents
 
-//Xcode12用＠main Xcode11以下是@UIAplicationMain
-@main
+@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
     
     var window: UIWindow! = UIWindow()
